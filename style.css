@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(#4282D3, #600CAC);
+}
+
+h1,h2,ul,ol,a,p{
+    color: white;
+}
+
+header{
+    background-color: #600CAC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.link-header{
+    background-color: #4282D3;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 10px 0 #05326D;
+    text-decoration: none;
+    position: relative;
+}
+
+.link-header:focus{
+    top: 10px;
+    box-shadow: inset 0 5px 0 #05326D;
+}
+
+h1{
+    letter-spacing: 15px;
+    text-shadow: 4px 2px #2b5b9b, 8px 4px #05326D, 12px 6px #600CAC;
+}
+
+.link-nav{
+    text-decoration: none;
+    margin: 10px;
+    background-color: #05326D;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav{
+    padding: 10px;
+}
+
+
